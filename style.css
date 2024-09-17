@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Estiliza o fundo da página */
+body{
+    background-image: linear-gradient(to top, #c60a95, #7808c2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estiliza a imagem de logo central */
+#logoDisney{
+    width: 700px;
+    height: 120px;
+    margin-right: 1.3rem;
+    box-shadow: none;
+}
+
+/* Estiliza as mensagens de erro */
+.msgPesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFCDD2;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+}
+
+/* Estiliza o campo de pesquisa */
+section input{
+    width: 32rem;
+    border: none;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 12.4rem;
+    background-color: #FFCDD2;
+    color: #d83ab2;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* Texto do campo de pesquisa */
+input::placeholder{
+    color: #d83ab2;
+    opacity: 0.5;
+}
+
+/* Estiliza o botão de pesquisa */
+section button{
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #FFCDD2;
+    color: #d83ab2;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Muda a cor do botão de pesquisa ao colocar o cursor em cima */
+section button:hover {
+    background-color: #7808c2; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+/* Estiliza o tamanho e localização da caixa de resultados */
+.result{
+    width: 60rem;
+    height: 10vh;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    color: #c60a95;
+    font-family: "Sevillana", cursive;
+    font-size: 1.5rem;
+}
+
+/* Estiliza as imagens das princesas */
+img{
+    width: 10rem;
+    height: 20vh;
+    border-radius: 0.6rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estiliza a caixa de resultado da Cinderela */
+.Cinderela{
+    background: #FFCDD2; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza o link da Cinderela */
+.Cinderela a{
+    /* text-decoration: none; */
+    color: #c60a95;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+}
+
+/* Estiliza a caixa de resultado da Branca de Neve */
+.BrancaDeNeve{
+    background: #FFCDD2; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* .Branca{
+    width: 10rem;
+    height: 22vh;
+    border-radius: 0.6rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+/* Estiliza o link da Branca de Neve */
+.BrancaDeNeve a{
+    color: #c60a95;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+}
+
+/* Estiliza a caixa de resultado da Bela */
+.Bela{
+    background: #FFCDD2; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* .Bel{
+    width: 10rem;
+    height: 20vh;
+    border-radius: 0.6rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+/* Estiliza o link da Bela */
+.Bela a {
+    color: #c60a95;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+}
+
+
+
+
+
